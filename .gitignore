@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*
+*secret*
+*token*
+
+# Runtime traces and simulator exports
+trace_*.jsonl
+*.sqlite3
+结果/formal_runs.json
+结果/演练记录样例/
+
+# LaTeX build products
+论文/*.aux
+论文/*.log
+论文/*.out
+论文/*.toc
+论文/*.lof
+论文/*.lot
+论文/*.fls
+论文/*.fdb_latexmk
+论文/*.synctex*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
